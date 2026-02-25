@@ -12,8 +12,6 @@
     <packaging>pom</packaging>
 
     <properties>
-        <reactor-core.version>3.7.0</reactor-core.version>
-        <tomcat-embed-core.version>11.0.0</tomcat-embed-core.version>
     </properties>
 
     <modules>

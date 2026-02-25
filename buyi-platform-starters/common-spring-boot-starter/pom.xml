@@ -7,7 +7,6 @@
         <version>${revision}</version>
     </parent>
     <artifactId>common-spring-boot-starter</artifactId>
-    <version>${revision}</version>
 
     <properties>
         <skipTests>true</skipTests>
@@ -95,7 +94,6 @@
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
-            <version>3.3.4</version>
         </dependency>
 
         <dependency>

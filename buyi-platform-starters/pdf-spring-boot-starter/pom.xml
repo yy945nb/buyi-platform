@@ -40,13 +40,11 @@
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>html2pdf</artifactId>
-            <version>5.0.4</version>
         </dependency>
         <!-- 中文字体支持 -->
         <dependency>
             <groupId>com.itextpdf</groupId>
             <artifactId>font-asian</artifactId>
-            <version>8.0.4</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
