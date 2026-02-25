@@ -1,0 +1,30 @@
+# Maven build output
+target/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven flatten plugin output
+.flattened-pom.xml
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

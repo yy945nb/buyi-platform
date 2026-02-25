@@ -1,7 +1,0 @@
-com/buyi/framework/pdf/configuration/PDFTemplate.class
-com/buyi/framework/pdf/utils/HtmlToPdfUtils.class
-com/buyi/framework/pdf/domain/PDFDomain.class
-com/buyi/framework/pdf/handler/WaterMarkEventHandler.class
-com/buyi/framework/pdf/domain/PDFDomain$PDFDomainBuilder.class
-com/buyi/framework/pdf/configuration/PDFAutoConfiguration.class
-com/buyi/framework/pdf/handler/PageEventHandler.class

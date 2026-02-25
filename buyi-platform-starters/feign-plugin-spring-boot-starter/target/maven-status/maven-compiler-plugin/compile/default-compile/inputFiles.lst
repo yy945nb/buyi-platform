@@ -1,8 +1,0 @@
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/FeignPluginConfiguration.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/FeignPluginProperties.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/decoder/FeignResponseDecoder.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/mock/FeignPluginInterceptor.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/mock/MockLoadBalancerFeignClient.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/mock/MockProperties.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/token/AutoRefreshTokenInterceptor.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java/com/buyi/framework/feign/plugin/token/AutoRefreshTokenProperties.java

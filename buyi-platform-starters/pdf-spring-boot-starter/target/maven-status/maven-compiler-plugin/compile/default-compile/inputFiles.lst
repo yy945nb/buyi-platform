@@ -1,6 +1,0 @@
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/pdf-spring-boot-starter/src/main/java/com/buyi/framework/pdf/configuration/PDFAutoConfiguration.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/pdf-spring-boot-starter/src/main/java/com/buyi/framework/pdf/configuration/PDFTemplate.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/pdf-spring-boot-starter/src/main/java/com/buyi/framework/pdf/domain/PDFDomain.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/pdf-spring-boot-starter/src/main/java/com/buyi/framework/pdf/handler/PageEventHandler.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/pdf-spring-boot-starter/src/main/java/com/buyi/framework/pdf/handler/WaterMarkEventHandler.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/pdf-spring-boot-starter/src/main/java/com/buyi/framework/pdf/utils/HtmlToPdfUtils.java

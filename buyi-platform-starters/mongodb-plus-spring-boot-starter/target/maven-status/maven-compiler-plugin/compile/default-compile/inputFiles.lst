@@ -1,6 +1,0 @@
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java/com/buyi/framework/mongodb/DynamicMongoAutoConfiguration.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java/com/buyi/framework/mongodb/annotation/DynamicMongo.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java/com/buyi/framework/mongodb/toolkit/DynamicMongoFactoryHolder.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java/com/buyi/framework/mongodb/toolkit/DynamicMongoRoutingInterceptor.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java/com/buyi/framework/mongodb/toolkit/DynamicMongoTemplate.java
-/home/runner/work/buyi-platform/buyi-platform/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java/com/buyi/framework/mongodb/utils/MongoWraps.java

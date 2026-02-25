@@ -1,3 +1,0 @@
-com.buyi.framework.redis.plus.RedisPlusAutoConfiguration
-com.buyi.framework.redis.plus.cache.RedisCacheAutoConfiguration
-com.buyi.framework.redis.plus.listener.RedisListenerAutoConfiguration

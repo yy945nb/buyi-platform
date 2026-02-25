@@ -1,4 +1,0 @@
-com.buyi.framework.storage.cloud.aliyun.AliYunOssAutoConfiguration
-com.buyi.framework.storage.cloud.tencent.TencentOssAutoConfiguration
-com.buyi.framework.storage.cloud.qiniu.QiNiuOssAutoConfiguration
-com.buyi.framework.storage.cloud.minio.MinioOssAutoConfiguration

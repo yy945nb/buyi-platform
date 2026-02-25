@@ -1,7 +1,0 @@
-com/buyi/framework/mongodb/toolkit/DynamicMongoTemplate.class
-com/buyi/framework/mongodb/toolkit/DynamicMongoRoutingInterceptor.class
-com/buyi/framework/mongodb/DynamicMongoAutoConfiguration.class
-com/buyi/framework/mongodb/toolkit/DynamicMongoFactoryHolder.class
-com/buyi/framework/mongodb/utils/MongoWraps$MongoPageResult.class
-com/buyi/framework/mongodb/utils/MongoWraps.class
-com/buyi/framework/mongodb/annotation/DynamicMongo.class
