@@ -90,13 +90,47 @@ public class DiffTests {
 //        toLogContent(List.of(loloOld), null);
 //        toLogContent(null, loloNew);
 
+    }
 
-        // 创建实体对象和值对象ID
-//        ValueObject valueObject = new ValueObject("Example Field");
-//        GlobalId globalId = example.javers.getTypeMapping(ValueObject.class).createId("field", valueObject);
-//        JaversType javersType = javers.getTypeMapping(Employee.class);
-        // 获取原始类名
-//        String originalClassName = example.getOriginalClassName(globalId);
-//        System.out.println("Original class name: " + originalClassName);
+    @Test
+    public void diffWithResult() {
+        Employee loloOld = Employee.builder().name("lolo")
+                .age(30)
+                .salary(10_000)
+                .desc("描述")
+                .primaryAddress(new Employee.Address("常德", "0号街道"))
+                .skills(Collections.singleton("management"))
+                .subordinates(List.of(new Employee("小华"), new Employee("小华1")))
+                .build();
+
+        Employee loloNew = Employee.builder().name("lolo")
+                .age(40)
+                .salary(20_000)
+                .primaryAddress(new Employee.Address("长沙", "1号街道"))
+                .skills(Collections.singleton("java"))
+                .subordinates(List.of(new Employee("小华1"), new Employee("小华2")))
+                .build();
+
+        String result = toLogContent(loloOld, loloNew);
+        assert result != null : "Diff result should not be null";
+        assert "success".equals(result) : "Diff result should be 'success' when there are changes";
+    }
+
+    @Test
+    public void diffSameObjects() {
+        Employee employee = Employee.builder().name("test")
+                .salary(5_000)
+                .build();
+        String result = toLogContent(employee, employee);
+        assert result != null : "Result should not be null";
+        assert "".equals(result) : "Diff result should be empty when objects are identical";
+    }
+
+    @Test
+    public void diffNullObjects() {
+        String result = toLogContent(null, null);
+        assert result != null : "Result should not be null";
+        assert "".equals(result) : "Diff result should be empty when both objects are null";
     }
 }
+

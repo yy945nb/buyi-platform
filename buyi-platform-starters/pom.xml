@@ -103,11 +103,6 @@
             </dependency>
             <dependency>
                 <groupId>com.buyi</groupId>
-                <artifactId>oauth2-spring-boot-starter</artifactId>
-                <version>${revision}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.buyi</groupId>
                 <artifactId>websocket-spring-boot-starter</artifactId>
                 <version>${revision}</version>
             </dependency>

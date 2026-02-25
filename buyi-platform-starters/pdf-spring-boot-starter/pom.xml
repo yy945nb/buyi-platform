@@ -12,7 +12,7 @@
     <properties>
         <!-- 打包跳过单元测试 -->
         <skipTests>true</skipTests>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -47,6 +47,10 @@
             <groupId>com.itextpdf</groupId>
             <artifactId>font-asian</artifactId>
             <version>8.0.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

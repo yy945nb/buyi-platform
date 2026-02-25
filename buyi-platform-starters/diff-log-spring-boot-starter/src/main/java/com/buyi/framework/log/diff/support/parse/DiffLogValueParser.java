@@ -8,7 +8,7 @@ import org.springframework.beans.factory.BeanFactoryAware;
 import org.springframework.context.expression.AnnotatedElementKey;
 import org.springframework.expression.EvaluationContext;
 
-import javax.annotation.Nullable;
+import org.springframework.lang.Nullable;
 import java.lang.reflect.Method;
 import java.util.*;
 import java.util.regex.Matcher;
