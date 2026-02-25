@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="4096" />
+    <annotationProcessing>
+      <profile name="Annotation profile for buyi-platform" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.6.2/mapstruct-processor-1.6.2.jar" />
+        </processorPath>
+        <module name="buyi-common-api" />
+        <module name="common-spring-boot-starter" />
+        <module name="db-spring-boot-starter" />
+        <module name="robot-spring-boot-starter" />
+        <module name="pdf-spring-boot-starter" />
+        <module name="redis-plus-spring-boot-starter" />
+        <module name="oauth2-spring-boot-starter" />
+        <module name="common-framework-core" />
+        <module name="mongodb-plus-spring-boot-starter" />
+        <module name="easyexcel-spring-boot-starter" />
+        <module name="diff-log-spring-boot-starter" />
+        <module name="buyi-common-mybatis" />
+        <module name="buyi-common-oauth" />
+        <module name="i18n-spring-boot-starter" />
+        <module name="storage-spring-boot-starter" />
+        <module name="buyi-common-openfeign" />
+        <module name="xxl-job-spring-boot-starter" />
+        <module name="feign-plugin-spring-boot-starter" />
+        <module name="buyi-common-redis" />
+        <module name="websocket-spring-boot-starter" />
+        <module name="buyi-common-web" />
+        <module name="buyi-common-core" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

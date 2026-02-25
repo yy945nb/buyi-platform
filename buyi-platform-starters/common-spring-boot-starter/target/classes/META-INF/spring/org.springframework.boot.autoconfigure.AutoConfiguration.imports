@@ -1,0 +1,10 @@
+com.buyi.framework.boot.base.GlobalExceptionHandler
+com.buyi.framework.boot.base.configuration.InitBaseConfiguration
+com.buyi.framework.boot.log.configuration.AccessLogAutoConfiguration
+com.buyi.framework.boot.remote.configuration.RemoteAutoConfiguration
+com.buyi.framework.boot.undertow.UndertowPoolCustomizer
+com.buyi.framework.boot.response.GlobalResponseBodyAdvice
+com.buyi.framework.boot.security.AuthenticationContextConfiguration
+com.buyi.framework.boot.async.AsyncConfiguration
+com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration
+com.buyi.framework.boot.response.GlobalJsonDeserializer

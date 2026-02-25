@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="COMPILER_PROCESS_HEAP_SIZE" value="4096" />
+  </component>
+  <component name="DockDockBuild.Settings">
+    <option name="codePath" value="null" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.wagon.http.ssl.ignore.validity.dates=true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="SwaggerHelperSettings">
+    <option name="interestingExceptions" value="" />
+  </component>
+  <component name="arthas.idea.plugin">
+    <option name="redisAddress" value="" />
+    <option name="redisAuth" value="" />
+    <option name="redisCacheKey" value="" />
+  </component>
+</project>

@@ -1,0 +1,142 @@
+{
+  "groups": [
+    {
+      "name": "extend.oauth2",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    },
+    {
+      "name": "extend.oauth2.client",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$Client",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    },
+    {
+      "name": "extend.oauth2.client.opaque-token",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$OpaqueToken",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Client"
+    },
+    {
+      "name": "extend.oauth2.ignore",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$Ignore",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    },
+    {
+      "name": "extend.oauth2.inner-service",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$InnerService",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    },
+    {
+      "name": "extend.oauth2.server",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$Server",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "extend.oauth2.authorization-type",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$LoadType",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    },
+    {
+      "name": "extend.oauth2.client.opaque-token.type",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$OpaqueTokenType",
+      "description": "内省token类型 （ redis 需要内部服务共享 \/ rest通过 feign\/http 则无限制）",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$OpaqueToken"
+    },
+    {
+      "name": "extend.oauth2.client.opaque-token.userinfo",
+      "type": "java.lang.String",
+      "description": "用户信息端口",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$OpaqueToken"
+    },
+    {
+      "name": "extend.oauth2.default-ignore-urls",
+      "type": "java.util.List<java.lang.String>",
+      "description": "默认的过滤地址",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties"
+    },
+    {
+      "name": "extend.oauth2.ignore.resource-urls",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Ignore"
+    },
+    {
+      "name": "extend.oauth2.inner-service.white-lists",
+      "type": "java.util.List<java.lang.String>",
+      "description": "白名单",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$InnerService"
+    },
+    {
+      "name": "extend.oauth2.server.consent",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$LoadType",
+      "description": "OAuth2AuthorizationConsentService 加载的类型",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.consent-page-uri",
+      "type": "java.lang.String",
+      "description": "授权确认页面地址",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.custom",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.device",
+      "type": "java.lang.Boolean",
+      "description": "大概率用不上",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.device-activate-uri",
+      "type": "java.lang.String",
+      "description": "授权确认页面地址",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.device-activated-uri",
+      "type": "java.lang.String",
+      "description": "授权确认页面地址",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.device-verification-uri",
+      "type": "java.lang.String",
+      "description": "设备验证地址",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.jwt-claims",
+      "type": "java.lang.String[]",
+      "description": "需要暴露在 JWT token 中的信息（便于从Token 提取数据建晒对 DB\/REDIS 的检索） 注意： 尽可能不要暴露敏感数据,同时暴露的内容别太多,越多KEY越长",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.login-form-url",
+      "type": "java.lang.String",
+      "description": "登录地址，前后端分离就填写完整的url路径，不分离填写相对路径",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.odic",
+      "type": "java.lang.Boolean",
+      "description": "大概率用不上",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.registered-client",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$LoadType",
+      "description": "客户端注册类型（推荐JDBC\/ REDIS 我没实现）",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    },
+    {
+      "name": "extend.oauth2.server.token-type",
+      "type": "com.buyi.framework.security.configuration.SecurityExtProperties$TokenType",
+      "description": "token 类型 (支持自定义TOKEN和默认的JWT)",
+      "sourceType": "com.buyi.framework.security.configuration.SecurityExtProperties$Server"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,272 @@
+{
+  "groups": [
+    {
+      "name": "extend.oss.cloud.aliyun",
+      "type": "com.buyi.framework.storage.properties.AliYunStorageProperties",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.minio",
+      "type": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu",
+      "type": "com.buyi.framework.storage.properties.QiNiuStorageProperties",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent",
+      "type": "com.buyi.framework.storage.properties.TencentStorageProperties",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "extend.oss.cloud.aliyun.access-key",
+      "type": "java.lang.String",
+      "description": "访问key",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.aliyun.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.aliyun.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "extend.oss.cloud.aliyun.endpoint",
+      "type": "java.lang.String",
+      "description": "endpoint",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties",
+      "defaultValue": "http:\/\/cloud.aliyuncs.com"
+    },
+    {
+      "name": "extend.oss.cloud.aliyun.mapping-path",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties",
+      "defaultValue": "http:\/\/minio.battcn.com\/"
+    },
+    {
+      "name": "extend.oss.cloud.aliyun.secret-key",
+      "type": "java.lang.String",
+      "description": "访问秘钥",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.aliyun.tmp-dir",
+      "type": "java.lang.String",
+      "description": "本地文件临时目录",
+      "sourceType": "com.buyi.framework.storage.properties.AliYunStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.minio.access-key",
+      "type": "java.lang.String",
+      "description": "minio实例上的访问",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "Q3AM3UQ867SPQQA43P2F"
+    },
+    {
+      "name": "extend.oss.cloud.minio.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.minio.connect-timeout",
+      "type": "java.time.Duration",
+      "description": "连接超时时间。",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "10s"
+    },
+    {
+      "name": "extend.oss.cloud.minio.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "extend.oss.cloud.minio.endpoint",
+      "type": "java.lang.String",
+      "description": "minio实例的URL。包括端口。如果未提供端口，则采用HTTP端口。",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "https:\/\/play.min.io"
+    },
+    {
+      "name": "extend.oss.cloud.minio.mapping-path",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "http:\/\/minio.battcn.com\/"
+    },
+    {
+      "name": "extend.oss.cloud.minio.metric-name",
+      "type": "java.lang.String",
+      "description": "在执行器上注册的度量配置前缀。",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "minio.oss"
+    },
+    {
+      "name": "extend.oss.cloud.minio.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": 80
+    },
+    {
+      "name": "extend.oss.cloud.minio.read-timeout",
+      "type": "java.time.Duration",
+      "description": "读取超时时间",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "10s"
+    },
+    {
+      "name": "extend.oss.cloud.minio.region",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.minio.secret-key",
+      "type": "java.lang.String",
+      "description": "minio实例上的密钥（密码）",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG"
+    },
+    {
+      "name": "extend.oss.cloud.minio.secure",
+      "type": "java.lang.Boolean",
+      "description": "If the scheme is not provided in {@code url} property, define if the connection is done via HTTP or HTTPS.",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "extend.oss.cloud.minio.tmp-dir",
+      "type": "java.lang.String",
+      "description": "本地文件临时目录",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.minio.write-timeout",
+      "type": "java.time.Duration",
+      "description": "写入超时时间",
+      "sourceType": "com.buyi.framework.storage.properties.MinioStorageProperties",
+      "defaultValue": "60s"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.access-key",
+      "type": "java.lang.String",
+      "description": "访问key",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.mapping-path",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties",
+      "defaultValue": "http:\/\/minio.battcn.com\/"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.region",
+      "type": "com.buyi.framework.storage.cloud.qiniu.QiNiuRegion",
+      "description": "存储区域",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.secret-key",
+      "type": "java.lang.String",
+      "description": "访问秘钥",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.strategies",
+      "type": "java.util.Map<java.lang.String,com.buyi.framework.storage.properties.QiNiuStorageProperties$QiNiuStrategy>",
+      "description": "不同的存储区域可以定制不同的上传策略,如果没有配置则使用上面默认配置",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.strict",
+      "type": "java.lang.Boolean",
+      "description": "上传策略是否支持额外参数 默认true不支持",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "extend.oss.cloud.qiniu.tmp-dir",
+      "type": "java.lang.String",
+      "description": "本地文件临时目录",
+      "sourceType": "com.buyi.framework.storage.properties.QiNiuStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.access-key",
+      "type": "java.lang.String",
+      "description": "访问key",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.app-id",
+      "type": "java.lang.String",
+      "description": "AppId",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.domain",
+      "type": "java.lang.String",
+      "description": "绑定的域名",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "extend.oss.cloud.tencent.mapping-path",
+      "type": "java.lang.String",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties",
+      "defaultValue": "http:\/\/minio.battcn.com\/"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.prefix",
+      "type": "java.lang.String",
+      "description": "前缀",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.region",
+      "type": "java.lang.String",
+      "description": "所属地区",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.secret-key",
+      "type": "java.lang.String",
+      "description": "访问秘钥",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "extend.oss.cloud.tencent.tmp-dir",
+      "type": "java.lang.String",
+      "description": "本地文件临时目录",
+      "sourceType": "com.buyi.framework.storage.properties.TencentStorageProperties"
+    }
+  ],
+  "hints": []
+}

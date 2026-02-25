@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-oauth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-oauth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-openfeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-openfeign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/buyi-common-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/common-framework-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/common-framework-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/common-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/common-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/db-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/db-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/diff-log-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/diff-log-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/easyexcel-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/easyexcel-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/feign-plugin-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/i18n-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/i18n-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/mongodb-plus-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/oauth2-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/oauth2-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/pdf-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/pdf-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/redis-plus-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/redis-plus-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/robot-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/robot-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/storage-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/storage-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/websocket-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/websocket-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/xxl-job-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buyi-platform-starters/xxl-job-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
