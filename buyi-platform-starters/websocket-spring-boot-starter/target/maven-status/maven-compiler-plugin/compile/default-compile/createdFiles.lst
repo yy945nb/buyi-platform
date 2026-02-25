@@ -5,11 +5,11 @@ com/buyi/framework/websocket/redis/DefaultRedisReceiver.class
 com/buyi/framework/websocket/TodoAtRemoved.class
 com/buyi/framework/websocket/redis/EnableRedisWebSocket.class
 com/buyi/framework/websocket/redis/RedisWebSocketConfiguration.class
-com/buyi/framework/websocket/redis/action/BroadCastAction.class
 com/buyi/framework/websocket/redis/action/NoActionAction.class
+com/buyi/framework/websocket/redis/action/BroadCastAction.class
 com/buyi/framework/websocket/WebSocket$WebSocketBuilder.class
-com/buyi/framework/websocket/WebSocketCloseEvent.class
 com/buyi/framework/websocket/WebSocketManager.class
+com/buyi/framework/websocket/WebSocketCloseEvent.class
 com/buyi/framework/websocket/redis/action/ActionConfig.class
 com/buyi/framework/websocket/memory/MemWebSocketManager.class
 com/buyi/framework/websocket/redis/action/Action.class

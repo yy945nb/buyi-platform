@@ -1,0 +1,4 @@
+com.buyi.framework.db.configuration.BaseMybatisConfiguration
+com.buyi.framework.db.encode.EncryptHikariDataSourceConfiguration
+com.buyi.framework.db.dynamic.TenantDynamicDataSourceEventBusAutoConfiguration
+com.buyi.framework.db.dynamic.DynamicDatasourceWebAutoConfigurer

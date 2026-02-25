@@ -10,8 +10,8 @@ com/buyi/framework/commons/exception/ValidException.class
 com/buyi/framework/commons/validation/time/DateTime.class
 com/buyi/framework/commons/entity/Area$AreaBuilder.class
 com/buyi/framework/commons/annotation/IgnoreGlobalResponse.class
-com/buyi/framework/commons/annotation/remote/Remote.class
 com/buyi/framework/commons/RegionUtils.class
+com/buyi/framework/commons/annotation/remote/Remote.class
 com/buyi/framework/commons/entity/Entity$EntityBuilder.class
 com/buyi/framework/commons/BeanUtilPlus.class
 com/buyi/framework/commons/entity/SuperEntity$SuperEntityBuilder.class
@@ -22,8 +22,8 @@ com/buyi/framework/commons/annotation/remote/Remote$FieldRef.class
 com/buyi/framework/commons/i18n/Language.class
 com/buyi/framework/commons/validation/time/LocalDateTimeValidator.class
 com/buyi/framework/commons/entity/Area.class
-com/buyi/framework/commons/security/DataScopeType.class
 com/buyi/framework/commons/entity/Entity$Save.class
+com/buyi/framework/commons/security/DataScopeType.class
 com/buyi/framework/commons/validation/name/NameValidator.class
 com/buyi/framework/commons/FeignConstants.class
 com/buyi/framework/commons/entity/validator/group/AddGroup.class
@@ -40,8 +40,8 @@ com/buyi/framework/commons/entity/BaseConverts.class
 com/buyi/framework/commons/times/TimeZoneUtil.class
 com/buyi/framework/commons/MapHelper.class
 com/buyi/framework/commons/entity/Result.class
-com/buyi/framework/commons/entity/SuperEntity$SuperEntityBuilderImpl.class
 com/buyi/framework/commons/entity/SuperEntity.class
+com/buyi/framework/commons/entity/SuperEntity$SuperEntityBuilderImpl.class
 com/buyi/framework/commons/entity/Entity$EntityBuilderImpl.class
 com/buyi/framework/commons/entity/Dict$DictBuilder.class
 com/buyi/framework/commons/security/DataPermission$DataPermissionBuilder.class

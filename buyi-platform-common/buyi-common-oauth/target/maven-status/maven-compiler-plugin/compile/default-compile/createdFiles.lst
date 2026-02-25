@@ -1,0 +1,5 @@
+com/buyi/common/oauth/authorization/WebFluxAuthorizationManager.class
+com/buyi/common/oauth/authorization/WebMvcAuthorizationManager.class
+com/buyi/common/oauth/util/AccessTokenUtils.class
+com/buyi/common/oauth/util/RSAUtils.class
+com/buyi/common/oauth/config/AuthorizationClientConfig.class
