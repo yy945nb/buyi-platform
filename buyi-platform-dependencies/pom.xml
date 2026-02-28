@@ -47,7 +47,7 @@
         <spring-security.version>6.3.3</spring-security.version>
         <transmittable-thread-local.version>2.14.4</transmittable-thread-local.version>
 
-        <tomcat.version>11.0.0</tomcat.version>
+        <tomcat.version>11.0.11</tomcat.version>
         <logback.version>1.5.10</logback.version>
 
         <springdoc.version>2.6.0</springdoc.version>
@@ -68,12 +68,12 @@
         <redisson.version>3.38.0</redisson.version>
         <dingtalk.version>2.0.73</dingtalk.version>
         <weixin-java-cp.version>4.5.0</weixin-java-cp.version>
-        <minio.version>8.5.9</minio.version>
+        <minio.version>8.6.0</minio.version>
         <okhttp3.version>4.12.0</okhttp3.version>
         <aliyun-sdk-oss.version>3.18.1</aliyun-sdk-oss.version>
         <qiniu-java-sdk.version>7.15.0</qiniu-java-sdk.version>
         <cos-api.version>5.6.220</cos-api.version>
-        <xxl-job.version>2.4.0</xxl-job.version>
+        <xxl-job.version>2.4.2</xxl-job.version>
         <aspectjweaver.version>1.9.22.1</aspectjweaver.version>
         <commons-pool2.version>2.12.0</commons-pool2.version>
         <feign.version>13.3</feign.version>
