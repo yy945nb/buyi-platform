@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>buyi-platform-dependencies</module>
         <module>buyi-platform-common</module>
         <module>buyi-platform-starters</module>
     </modules>
